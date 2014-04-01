@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  default values -->
+    <string name="app_name">Think for Glass</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- GDK values  -->
+    <string name="GDK_greeting">Hello world...from the GDK!</string>
+	<string name="trigger_phrase">go fishing</string>
+    <string name="footer">Always Think for Glass</string>
+    
+</resources>
