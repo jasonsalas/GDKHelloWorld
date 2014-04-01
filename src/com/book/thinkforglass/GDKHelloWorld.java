@@ -18,9 +18,11 @@ public class GDKHelloWorld extends Activity {
 		Card card = new Card(context);  
 		card.setText(R.string.GDK_greeting);
 		card.setFootnote(R.string.footer);
+		card.setImageLayout(Card.ImageLayout.FULL);
+		card.addImage(R.drawable.jerky);
 		
 		View view = card.toView();
-		
+		  
 		setContentView(view);
 	}
 
