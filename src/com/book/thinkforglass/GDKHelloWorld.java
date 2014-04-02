@@ -10,13 +10,13 @@ public class GDKHelloWorld extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-
-		Card card = new Card(this);  
-		card.setText(R.string.GDK_greeting);
-		card.setFootnote(R.string.footer);
-		card.setImageLayout(Card.ImageLayout.FULL);
-		card.addImage(R.drawable.jerky);
 		
+		Card card = new Card(this)  
+			.setText(R.string.GDK_greeting)
+			.setFootnote(R.string.footer)
+			.setImageLayout(Card.ImageLayout.FULL)
+			.addImage(R.drawable.jerky);
+		  
 		setContentView(card.toView());
 	}
 
